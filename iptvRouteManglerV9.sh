@@ -2,7 +2,7 @@ iptvRouteManglerV9.sh
 #!/bin/vbash
 
 # Update route table for ipTV multicast traffic / mangled by JvO 25-11-2021
-ScriptRelease=V8
+ScriptRelease=V9
 
 echo "Back once again for the renegade master, D4 damage for the IpTV route behavior!"
 
