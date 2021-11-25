@@ -32,8 +32,9 @@ NEW_IP=$(cat /var/run/dhclient_eth0.4_lease | grep new_dhcp_server_identifier | 
 
 # Check if the proper route is in place, if it is we do not have to set the static.
 # This if condition needs a proper return / else function, looking for time to fix this.....
-if [ "$CUR_IP" = "$NEW_IP" ]; then
-   echo "Say whhaattt, it looks like the address is the same, SNAFU?"
+if [ "$CUR_IP" = "$NEW_IP" ]; 
+	then
+   		echo "Say whhaattt, it looks like the address is the same, SNAFU?"
 fi
 
 configure
